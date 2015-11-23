@@ -15,6 +15,7 @@ shinyUI(fluidPage( theme = shinytheme("cerulean"),
                      "New York City" = "KJFK",
                      "Chicago"="KORD",
                      "Philadelphia"="KPHL",
+                     "Baltimore"="BWI",                   
                      "San Francisco"="KSFO",
                      "北京"="ZBAA",
                      "南京"="ZSNJ",
@@ -45,7 +46,7 @@ shinyUI(fluidPage( theme = shinytheme("cerulean"),
   
   mainPanel(
   
-    #tags$head(includeScript("google-analytics.js")),
+    tags$head(includeScript("google-analytics.js")),
     # google analytics script
     
     h3(textOutput("caption")),    

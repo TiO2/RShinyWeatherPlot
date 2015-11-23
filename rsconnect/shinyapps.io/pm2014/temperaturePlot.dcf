@@ -1,0 +1,8 @@
+name: temperaturePlot
+account: pm2014
+server: shinyapps.io
+bundleId: 242688
+url: https://pm2014.shinyapps.io/temperaturePlot
+when: 1439867068.02153
+asMultiple: FALSE
+asStatic: FALSE

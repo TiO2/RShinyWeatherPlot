@@ -20,10 +20,10 @@ shinyServer(function(input, output) {
     StationCode <- input$City
     
     d <- as.POSIXlt(Sys.Date())
-    d$year <- d$year-1
-    startDate = as.Date(d)        
+    d$year <- d$year-1 # get the date one year ago
+    startDate = as.Date(d)    
     # download data:   
-    data1 = getWeatherForDate(StationCode, "2014-01-01", end_date=Sys.Date())
+    data1 = getWeatherForDate(StationCode, startDate, end_date=Sys.Date())
     # function for temperature unit conversions    
     transformTemp = function(x) round((x-32)*5/9,2) 
     
@@ -66,7 +66,7 @@ shinyServer(function(input, output) {
     
     # color fill based on the month:
     ggplot(data1,aes(x=Date,y=data1[,3],fill=factor(data1$month, levels=unique(data1$month), ordered=F)))+geom_bar(stat="identity")+
-      xlab("Date(2014-Present)") +
+      xlab("Date(One year (365 days) ago -- Present)") +
       ylab(theYLabel)+
       labs(fill= "Month")+
       ggtitle(aaaa)+ scale_fill_manual(values = myColor)
