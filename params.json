@@ -1,0 +1,6 @@
+{
+  "name": "Rshinyweatherplot",
+  "tagline": "An experimental R Shiny app to plot the daily temperature histroy for a city",
+  "body": "An example R Shiny app to plot the weather data\r\n===================================================\r\n\r\nR + Shiny + weatherData\r\n------------------------\r\nThe idea to use the wonderful pakage [weatherData](http://ram-n.github.io/weatherData/) to Download the weather data for a selected city and plot its temperature history. The ploting will then be rendered on html page to show it to user. \r\n\r\nExample is on [Here](https://pm2014.shinyapps.io/temperaturePlot/)\r\n\r\nRequired Packages\r\n------------------\r\n    Shiny\r\n    ggplot2\r\n    weatherData\r\n    shinythemes\r\n\r\n\r\nLicense\r\n--------\r\nGNU GPL v2.0\r\n\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
