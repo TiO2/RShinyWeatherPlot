@@ -1,0 +1,8 @@
+
+
+https://www.wunderground.com/history/airport/ZULS/2015/4/1/CustomHistory.html?dayend=3&monthend=4&yearend=2015&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=&format=1
+
+
+http://www.wunderground.com/history/airport/SEA/2014/5/5/CustomHistory.html?dayend=5&monthend=5&yearend=2014&req_city=NA&req_state=NA&req_statename=NA&format=1 
+
+http://www.wunderground.com/history/airport/SEA/2014/5/5/CustomHistory.html?dayend=5&monthend=5&yearend=2014&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=&format=1

@@ -3,4 +3,6 @@ google-analytics.js
 shinyapps/
 test.R
 *~
+.Rhistory
+rsconnect/
 

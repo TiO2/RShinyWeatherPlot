@@ -58,8 +58,8 @@ shinyServer(function(input, output) {
     }
 
     myColor = c("#00B4F0", "#00BFC4","#00C08B", "#00BA38",
-                "#619CFF", "#C77CFF", "#F564E3", "#FF64B0", "#F8766D",
-                "#DE8C00", "#B79F00", "#7CAE00")
+                "#619CFF", "#C77CFF", "#F564E3", "#FF64B0", 
+                "#F8766D", "#DE8C00", "#B79F00", "#7CAE00")
     
     aaaa = sprintf("%s daily temperatures for your selected city (2013-2014)","Averaged")
     theYLabel = sprintf("Mean Temperature (%s)", ifelse((input$radio==1),'C','F'))
